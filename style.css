@@ -393,7 +393,7 @@ footer {
 
   h1 {
     font-size: 50px;
-    margin-top: 16px;
+    /* margin-top: 16px; */
   }
 
   .card__description__para-wrapper {
@@ -402,6 +402,42 @@ footer {
 
   input, textarea {
     width: 400px;
+  }
+}
+
+@media (max-width: 600px) {
+  .card__description__img-wrapper {
+    width: 75%;
+  } 
+}
+
+@media(max-width: 500px) {
+  .nav {
+    gap: 5px;
+  }
+
+  .course {
+    margin: 0;
+  }
+
+  .course__icon {
+    font-size: 60px
+  }
+
+  .course__selection {
+    text-align: center;
+  }
+
+  .course__title {
+    font-size: 30px;
+  }
+
+  .card__description__img-wrapper {
+    width: 100%;
+  }
+
+  input, textarea {
+    width: 100%;
   }
 }
 
