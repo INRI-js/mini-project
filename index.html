@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Mini-Project</title>
+  </head>
+  <body>
+    <!-- Floppy disk icon: 💾
+Play button icon: ▷
+Copyright symbol: © -->
+    <nav>
+      <div class="logo">
+        <img src="./assets/fes-logo.png" alt="Logo" class="logo__image" />
+        <h1 class="logo__title"><b>FrontEnd</b> Simplified</h1>
+      </div>
+      <ul class="nav__links">
+        <li><a class="link nav__link" href="#about">About</a></li>
+        <li><a class="link nav__link" href="#social">Social</a></li>
+        <li><a class="link nav__link" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <!------ HEADER -------->
+    <header>
+      <div class="row row--course">
+        <div class="course">
+          <h1 class="course__icon">💾</h1>
+          <div class="course__text">
+            <div class="course__selection">----YOUR COURSE----</div>
+            <div class="course__title">Software Engineering</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="hero">
+          <figure class="hero__img--wrapper">
+            <img src="./assets/laptop.png" alt="Laptop" class="hero__img" />
+          </figure>
+          <div class="hero__description">
+            <h1>Best place to learn Frontend</h1>
+            <p class="subheader">
+              Join thousands of students and start your journey today!
+            </p>
+            <a href="#about">
+              <button class="hero__description--button">▷ LEARN MORE</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!------ MAIN ---------->
+    <main>
+      <!-- ABOUT SECTION -->
+      <section id="about">
+        <div class="row row--about">
+          <div class="card card--about">
+            <h1 class="card__title">About</h1>
+            <div class="card__description">
+              <div class="card__description__para-wrapper">
+                <p class="card__description__para">
+                  Frontend Simplified is a platform that provides high-quality
+                  resources and tutorials for learning frontend development. Our
+                  mission is to make learning frontend development easy and
+                  accessible for everyone.
+                </p>
+                <p class="card__description__para">
+                  We offer a wide range of courses, from beginner to advanced
+                  levels, covering topics such as HTML, CSS, JavaScript, React,
+                  and more. Our courses are designed to be interactive and
+                  hands-on, allowing students to apply what they learn in real
+                  projects.
+                </p>
+              </div>
+              <figure class="card__description__img-wrapper">
+                <img
+                  src="./assets/reading.png"
+                  alt="About Image"
+                  class="card__description__img"
+                />
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SOCIAL SECTION-->
+      <section id="social">
+        <div class="row row--social">
+          <div class="card card--social">
+            <h1 class="card__title">Social</h1>
+            <div class="card__description">
+              <div class="card__description__para-wrapper">
+                <p class="card__description__para">
+                  Frontend Simplified is a platform that provides high-quality
+                  resources and tutorials for learning frontend development. Our
+                  mission is to make learning frontend development easy and
+                  accessible for everyone.
+                </p>
+                <p class="card__description__para">
+                  We offer a wide range of courses, from beginner to advanced
+                  levels, covering topics such as HTML, CSS, JavaScript, React,
+                  and more. Our courses are designed to be interactive and
+                  hands-on, allowing students to apply what they learn in real
+                  projects.
+                </p>
+              </div>
+              <figure class="card__description__img-wrapper">
+                <img
+                  src="./assets/social.png"
+                  alt="Social Image"
+                  class="card__description__img"
+                />
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT SECTION -->
+      <section id="contact">
+        <div class="row row--contact">
+          <div class="card card--contact">
+            <h1 class="card__title">Contact</h1>
+            <form action="" class="contact__form">
+              <div class="form__group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+              <div class="form__group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+              <div class="form__group">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!------ FOOTER -------->
+    <footer>
+      <div class="logo footer__logo">
+        <img class="logo__image" src="./assets/fes-logo.png" alt="Frontend Simplified Logo">
+        <h1 class="logo__title"><b>FrontEnd</b> Simplified</h1>
+      </div>
+      <ul class="links footer__links">
+        <li><a href="#about" class="footer__link">About</a></li>
+        <li><a href="#social" class="footer__link">Social</a></li>
+        <li><a href="#contact" class="footer__link">Contact</a></li>
+      </ul>
+      <p class="footer__copyright">&copy; 2024 FrontEnd Simplified. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
