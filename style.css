@@ -417,6 +417,7 @@ footer {
   }
 
   .course {
+    justify-content: center;
     margin: 0;
   }
 
@@ -429,11 +430,23 @@ footer {
   }
 
   .course__title {
-    font-size: 30px;
+    font-size: 24px;
+  }
+
+  .course__icon {
+    font-size: 40px;
+  }
+
+  h1 {
+    font-size: 40px;
   }
 
   .card__description__img-wrapper {
     width: 100%;
+  }
+
+  .card__description__para {
+    font-size: 16px;
   }
 
   input, textarea {
